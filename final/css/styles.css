@@ -6,7 +6,7 @@ img {
 }
 
 body {
-    
+    background-image: url("https://i.pinimg.com/originals/a3/c7/34/a3c7341c13cdcec59676e0a0bdb4f34b.png");
     background-color: #F28DBC;
 }
 
@@ -185,6 +185,9 @@ footer {
         display: flex;
         width: auto;
         padding: 2px;
+        align-items: center;
+        justify-content: center;
+        
     }
     .ref {
         margin: 5px;
@@ -212,14 +215,18 @@ footer {
         
         display: flex;
         border: none;
+        margin: 10px auto;
+        align-items: center;
+        justify-content: center;
+        
+        
         
     }
     .ss img {
-    display: flex;
-    width: 100%;
-    height: auto;
-    margin: 35px;
+        width: 100%;
     
+   
+   
         
     }
     main img {
@@ -228,7 +235,7 @@ footer {
         margin: 20px auto;
     }
     
-    
+   
 }
 
 
