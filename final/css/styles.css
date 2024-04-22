@@ -265,7 +265,15 @@ footer {
         
         
      }
-     #references {
+     #eggs {
+        display: flex;
+        width: auto;
+        padding: 2px;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    #religious {
         display: flex;
         width: auto;
         padding: 2px;
@@ -278,8 +286,8 @@ footer {
         padding: 1px;
     }
     .ref img {
-        height: 245px;
-        width: 245px;
+        height: 235px;
+        width: 235px;
         border-radius: 10%;
     }
     
@@ -317,6 +325,11 @@ footer {
         display: block;
         width: 75%;
         margin: 20px auto;
+    }
+    .ref img {
+        height: 350px;
+        width: 350px;
+        border-radius: 10%;
     }
     
    
